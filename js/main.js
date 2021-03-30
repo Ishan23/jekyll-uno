@@ -7,6 +7,7 @@ exclude: 'yes'
   $(document).ready(function () {
     {% if site.disable_landing_page != true %}
     $('a.blog-button').click(function (e) {
+      //document.getElementById("about1").style.display="none";
       if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
@@ -38,3 +39,13 @@ exclude: 'yes'
     })
 
   })
+
+
+  function f(elem1,elem2) {
+    var e1 = document.getElementById(elem1);
+    var e2 = document.getElementById(elem2);
+    
+    e1.style.display = "none"; // hide
+    e2.style.display = "block"; // unhide
+
+  }

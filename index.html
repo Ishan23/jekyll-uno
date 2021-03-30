@@ -3,7 +3,14 @@ layout: default
 robots: noindex
 ---
 
-<div class="main-post-list">
+<div id="about1">
+  <h2 class="post-list__post-title post-title">About Me</h2>
+  <p class="excerpt">Still working on it.. <br /> Keep checking this space to learn more about me.</p>
+
+
+</div>
+
+<div class="main-post-list", id = "blog2">
 
   <ol class="post-list">
     {% for post in paginator.posts %}
@@ -26,5 +33,7 @@ robots: noindex
   {% if paginator.previous_page or paginator.next_page %}
       {% include pagination.html %}
   {% endif %}
+
+  
 
 </div>
