@@ -19,8 +19,19 @@ exclude: 'yes'
       }
     })
 
+    blog = document.getElementById("about1")
+    about = document.getElementById("blog2")
+
+    if (window.location.hash && window.location.hash == '#about') {
+      $('.panel-cover').addClass('panel-cover--collapsed')
+      blog.style.display = "block" // hide
+      about.style.display = "none"; // unhide
+    }
+
     if (window.location.hash && window.location.hash == '#blog') {
       $('.panel-cover').addClass('panel-cover--collapsed')
+      about.style.display = "block" // hide
+      blog.style.display = "none"; // unhide
     }
 
     if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
@@ -49,3 +60,21 @@ exclude: 'yes'
     e2.style.display = "block"; // unhide
 
   }
+  window.onhashchange = function()  {
+
+    blog = document.getElementById("about1")
+    about = document.getElementById("blog2")
+
+    var hash = window.location.hash.substring(1)
+
+    if (hash == "about")
+    {
+      blog.style.display = "block" // hide
+      about.style.display = "none"; // unhide
+    }
+    else if (hash == "blog")
+    {
+      about.style.display = "block" // hide
+      blog.style.display = "none"; // unhide
+    }
+   }
