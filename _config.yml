@@ -2,8 +2,7 @@
 title: Ishan Khandelwal
 description: 'Data Engineer at Tempus Labs, Inc. | Masters in Computer Science at Columbia University'
 url: 'https://ishan23.github.io'
-# baseurl: '/Ishan23.github.io'
-# baseurl: '/jekyll-uno'
+baseurl: '/''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
@@ -11,7 +10,7 @@ url: 'https://ishan23.github.io'
 author:
   name: 'Ishan Khandelwal'
   email: ishan.khandelwal@columbia.edu
-  # twitter_username: joshgerdes
+  # twitter_username: 
   facebook_username: ishankhandelwal23
   github_username:  Ishan23
   linkedin_username:  ish23
