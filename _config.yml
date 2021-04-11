@@ -1,8 +1,9 @@
 # Site settings
 title: Ishan Khandelwal
 description: 'Data Engineer at Tempus Labs, Inc. | Masters in Computer Science at Columbia University'
-url: 'https://ishan23.github.io'
-baseurl: '/''
+url: 'https://www.ishankhandelwal.com'
+# url: 'https://ishan23.github.io'
+# baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
