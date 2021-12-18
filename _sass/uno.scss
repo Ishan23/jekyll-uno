@@ -1267,11 +1267,11 @@ hr {
 	padding: 0 60px; }
 
 .panel-main__content {
-	max-width: 620px;
+	max-width: 700px;
 	margin: 0 auto; }
 
 .panel-main__content--fixed {
-	width: 480px;
+	width: 500px;
 	transition: width 1s;
 	-webkit-transition: width 1s;
 	/* Safari */ }
@@ -1459,6 +1459,16 @@ i {
 	line-height: 1.3em;
 }
 
+.update{
+	margin-top: 0;
+	margin-bottom: .2em;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	font-style: italic;
+	color: red;
+	font-weight: bold;
+}
+
 .post-list__meta {
 	display: block;
 	margin: .7em 0 0 0;
@@ -1609,7 +1619,7 @@ input[type="tel"] {
 
 	.panel-cover__description {
 		display: block;
-		max-width: 600px;
+		max-width: 800px;
 		margin: 0 auto; }
 
 	.panel-cover__divider--secondary {
